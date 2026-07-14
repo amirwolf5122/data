@@ -1,7 +1,0 @@
-import requests
-
-headers = {
-    'Host': 'b8rta.co.uk:443',
-}
-
-response = requests.request('CONNECT', 'https://b8rta.co.uk', headers=headers)
